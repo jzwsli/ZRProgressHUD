@@ -11,7 +11,6 @@ s.platform            = :ios, "9.0"
 s.source              = { :git => "https://github.com/jzwsli/ZRProgressHUD.git", :tag => s.version }
 s.source_files        = "ZRProgressHUD/**/*.{h,m}"
 s.resources          = "ZRProgressHUD/Images/*.png"
-s.dependency          "BPushSDK", "1.4.1"
 s.requires_arc        = true
 s.framework  = "Foundation"
 end
